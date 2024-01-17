@@ -3,7 +3,7 @@ int main(){
     int n,i;
     unsigned long long fact=1;
     printf("Enter an integer: ");
-    scanf("%d,&n");
+    scanf("%d",&n);
     if(n<0){
         printf("Error! Fctorial of a negative number doesn't exist.");
     }
