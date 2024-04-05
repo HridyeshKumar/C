@@ -9,8 +9,14 @@ int main(){
     {
         for(int j=1;j<=i;j++) //columns
         {
-            printf("%d ",a);//it can be i also
-            a++;
+            if(a<10){
+                printf("%d ",a);//it can be i also
+                a++;
+            }
+            else{
+                printf("%d ",a);//it can be i also
+                a++;
+            }
         }
         printf("\n");
     }
