@@ -1,6 +1,4 @@
-// Online C compiler to run C program online
 #include <stdio.h>
-
 int main() {
     int arr[]={5,6,9,10,15,4,2,3,1};
     int n=9;
@@ -20,7 +18,5 @@ int main() {
     for(int i=0;i<n;i++){
         printf("%d\t",arr[i]);
     }
-    
-
     return 0;
 }
