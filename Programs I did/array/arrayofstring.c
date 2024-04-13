@@ -1,5 +1,15 @@
 #include <stdio.h>
-void main()
+#include<string.h>
+int samestring(char *s1, char *s2) {
+    int i;
+    if (strlen(s1) !=strlen(s2))
+    return 0;
+    for (i = 0;i< strlen(s1); i++)
+    if (s1[i] != s2[i])
+    return 0;
+    return 1;
+}
+int main()
 {
     char *days[7];
     char TheDay[10];
@@ -20,14 +30,4 @@ void main()
         printf("%s is day %d.\n", TheDay, day);
     else
         printf("No day %s!\n", TheDay);
-}
-int samestring(char *s1, char *s2) {
-    int i;
-    if (strlen(s1) !=strlen(s2))
-    return 0;
-    for (i = 0;i< strlen(s1); i++)
-    if (s1[i] != s2[i])
-    return 0;
-    return 1;
-
 }
