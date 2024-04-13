@@ -16,7 +16,7 @@ int main(){
     // Check for unit or identity matrix
     for(i=0;i<row;i++)
         for(j=0;j<column;j++)
-            if(a[i][j]!=1&&a[j][i]!=0)
+            if(a[i][j]!=1 && a[j][i]!=0)
                 flag=0;
                 break;
     if (flag==1)
