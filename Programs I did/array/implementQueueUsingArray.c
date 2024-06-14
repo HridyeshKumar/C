@@ -28,7 +28,7 @@ void insert()
 
         }
 
-        printf("Inset the element in queue : ");
+        printf("Insert the element in queue : ");
 
         scanf("%d", &add_item);
 
