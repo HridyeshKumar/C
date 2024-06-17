@@ -1,9 +1,6 @@
 #include<stdio.h>
-
 int sudoku[9][9];   //The array which stores entries for the sudoku
-
 void solvesudoku(int, int);
-
 int checkrow(int row, int num)
 {
     //This function checks whether we can put the number(num) in the row(row) of the Sudoku or not
@@ -19,7 +16,6 @@ int checkrow(int row, int num)
     //If the number is not found anywhere we return 1
     return 1;
 }
-
 int checkcolumn(int column, int num)
 {
     //This function checks whether we can put the number(num) in the column(column) of the Sudoku or not
@@ -35,7 +31,6 @@ int checkcolumn(int column, int num)
     //If the number is not found anywhere we return 1
     return 1;
 }
-
 int checkgrid(int row, int column, int num)
 {
     //This function checks whether we can put the number(num) in the 3*3 grid or not
@@ -59,7 +54,6 @@ int checkgrid(int row, int column, int num)
     //If the number is not found anywhere we return 1
     return 1;
 }
-
 void navigate(int row, int column)
 {
     //Function to move to the next cell in case we have filled one cell
@@ -68,7 +62,6 @@ void navigate(int row, int column)
     else
         solvesudoku(row + 1, 0);
 }
-
 void display()
 {
     //The function to display the solved Sudoku
@@ -78,11 +71,9 @@ void display()
     {
         for (column = 0; column < 9; column++)
             printf("%d ", sudoku[row][column]);
-
         printf("\n");
     }
 }
-
 void solvesudoku(int row, int column)
 {
     //If the row number is greater than 8 than we have filled all cells hence we have solved the sudoku
@@ -110,7 +101,6 @@ void solvesudoku(int row, int column)
         sudoku[row][column] = 0;
     }
 }
-
 int main()
 {
     int row, column;
@@ -118,7 +108,6 @@ int main()
     for (row = 0; row < 9; row++)
         for (column = 0; column < 9; column++)
             scanf("%d", &sudoku[row][column]);
-
     //We start solving the sudoku.
     solvesudoku(0, 0);
     return 0;
