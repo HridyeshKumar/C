@@ -8,7 +8,7 @@ int main(){
     {
         for(int j=1;j<=n+1-i;j++) //columns
         {
-            printf("%d ",j);//it can be i also
+            printf("%d ",j);
         }
         printf("\n");
     }
