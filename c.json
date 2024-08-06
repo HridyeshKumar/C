@@ -1,0 +1,23 @@
+{
+	"C boilerplate": {
+		"prefix": "C boiler",
+		"body": [
+			"#include<stdio.h>",
+			"#include<string.h>",
+			"#include<stdlib.h>\n",
+			"void func(){\n",
+
+  		"\treturn;",
+			"}",
+			"int main(){",
+			"\t$1",
+
+
+  		"\treturn 0;",
+			"}"
+			
+			
+		],
+		"description": "Clanguage boilerplate"
+	}
+}
