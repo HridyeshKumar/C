@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 struct TIME
 {
     int seconds;
