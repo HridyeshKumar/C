@@ -2,8 +2,7 @@
 #include<stdlib.h>
 #include<string.h>
 
-int isBal(const char *s, int l)
-{
+int isBal(const char *s, int l){
     signed c = 0;
 
     while (l--)
