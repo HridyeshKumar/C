@@ -4,7 +4,7 @@ void main()
 {
     char str[20];
     int length;
-    printf("\nEmter the string:");
+    printf("\nEnter the string:");
     gets(str);
     length=string_ln(str);
     printf("The length of the given string %s is %d",str,length);
