@@ -5,7 +5,7 @@ int main()
     //initialize first and second terms
     int t1=0; int t2=1;
     //initialize the 3rd term
-    int t3=1+t2;
+    int t3=t1+t2;
     printf("Enter the number of terms: ");
     scanf("%d",&n);
     printf("Fibonacci Series:%d %d ",t1,t2);
