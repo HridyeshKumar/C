@@ -47,7 +47,7 @@ int main(){
     }
     printf("Heap Sort Array:\n");
     for(iter=0;iter<n;iter++){
-        printf("%d",DeleteMin());
+        printf("%d ",DeleteMin());
     }
     printf("\n");
     return 0;
