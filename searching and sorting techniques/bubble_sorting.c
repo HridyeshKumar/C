@@ -13,6 +13,8 @@ int main(){
                 swap=array[d];
                 array[d]=array[d+1];
                 array[d+1]=swap;
+            }
+    }
     printf("Sorted list in ascending order:\n");
     for(c=0;c<n;c++)
         printf("%d\n",array[c]);
