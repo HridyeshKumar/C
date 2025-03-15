@@ -7,7 +7,7 @@
 int main()
 {
 
-    int array[10];
+    int array[10]; 
     int i, j, temp;
 
     printf("Enter 10 elements of an array \n");
